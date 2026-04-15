@@ -23,3 +23,7 @@ print(f"Final List: {cleaned}")
 #9. I moved the return statement outside the loop and ran the code again to see if it worked.
 #10. I ran the code again and it worked as expected, giving me only the even numbers in the list.
 #11. Now the function gives the correct result of the even numbers.
+#12. The final output is [4, 6, 10], which is the expected result.
+#13. The issue was that the return statement was inside the loop, 
+#14.which caused the function to exit after processing only the first item. By moving the return statement outside the loop, 
+#15.we ensure that all items are processed before returning the final list.
